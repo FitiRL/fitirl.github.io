@@ -61,9 +61,9 @@ Structured logs are suitable for some specific scenarios:
 
 ## Example of structured logs implementation in C
 
-But implementing structured logs is not that hard! Here we will **develop our custom log library**, very, very simple (but better than using `printf()`). And most important: <u>without any third-party dependency</u>.
+But implementing structured logs is not that hard! Here we will **develop our custom log library**, very, very simple (but better than using `printf()`). And most important: <u>without any third-party dependency</u>.
 
-1. First of all, define the structures we are going to use: the `log_level_t` structure with different log levels, its string representation, and the logger structure.
+1. First of all, define the structures we are going to use: the `log_level_t` structure with different log levels, its string representation, and the logger structure.
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -205,7 +205,7 @@ vs
 
 ### Extra: Hybrid logging
 
-As a good practice, it is recommended to enable debug mode via CFLAG, with something like:
+As a good practice, it is recommended to enable debug mode via CFLAG, with something like:
 
 ```c
 #ifdef _DEBUG
