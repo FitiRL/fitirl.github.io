@@ -2,7 +2,7 @@
 title: "Unsafe functions vulnerabilities in C"
 date: 2026-02-10
 author: Fiti
-description: How inject a shellcode into a vulnerable software in C.
+description: How to inject a shellcode into a vulnerable software in C.
 tags:
   - c
   - security
